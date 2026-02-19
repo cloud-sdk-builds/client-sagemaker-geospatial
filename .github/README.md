@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-sagemaker-geospatial`](https://www.npmjs.com/package/@aws-sdk/client-sagemaker-geospatial/v/3.481.0).
+[`@aws-sdk/client-sagemaker-geospatial`](https://www.npmjs.com/package/@aws-sdk/client-sagemaker-geospatial/v/3.484.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.481.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.484.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-o9t2kfUrYyEbIuwt5Z/ENFX09azB5q41wgqKSMeqS7dfUih3F3WZari1wuFYzG4W
+sha384-PzgZau4rwRcsGJ0+wtoUIaD87diWRJcBPp0LRF269KoRMCPXqBIRn413qx2BdPeD
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-sagemaker-geospatial": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.481.0/index.min.mjs"
+            "@aws-sdk/client-sagemaker-geospatial": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.484.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.481.0/index.min.mjs": "sha384-o9t2kfUrYyEbIuwt5Z/ENFX09azB5q41wgqKSMeqS7dfUih3F3WZari1wuFYzG4W"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.484.0/index.min.mjs": "sha384-PzgZau4rwRcsGJ0+wtoUIaD87diWRJcBPp0LRF269KoRMCPXqBIRn413qx2BdPeD"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-sagemaker-geospatial": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.481.0/index.min.mjs"
+                        "@aws-sdk/client-sagemaker-geospatial": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.484.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.481.0/index.min.mjs": "sha384-o9t2kfUrYyEbIuwt5Z/ENFX09azB5q41wgqKSMeqS7dfUih3F3WZari1wuFYzG4W"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-geospatial@3.484.0/index.min.mjs": "sha384-PzgZau4rwRcsGJ0+wtoUIaD87diWRJcBPp0LRF269KoRMCPXqBIRn413qx2BdPeD"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.481.0`)
+* Always pin to a specific version (`@3.484.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-sagemaker-geospatial/blob/refs/tags/3.481.0/LICENSE
+https://github.com/cloud-sdk-builds/client-sagemaker-geospatial/blob/refs/tags/3.484.0/LICENSE
 ```
 
 ---
